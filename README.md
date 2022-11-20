@@ -18,5 +18,4 @@ npm run docs:dev
 
 
 ## Status <a name = "Status"></a>
-### Title <Badge type="warning" text="beta" />
 Add notes about how to use the system.

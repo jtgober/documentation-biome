@@ -1,4 +1,4 @@
-# Hello world
+# Welcome! Here is a bunch of stuff
 
 ## Table of contents
 
