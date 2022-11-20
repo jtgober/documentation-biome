@@ -2,7 +2,7 @@
   "name": "vitepress",
   "version": "1.0.0",
   "description": "",
-  "main": "docs/index.md",
+  "main": "docs/.vitepress/dist/index.html",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
