@@ -2,7 +2,7 @@
   "name": "vitepress",
   "version": "1.0.0",
   "description": "",
-  "main": "docs/.vitepress/dist/index.html",
+  "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -10,7 +10,7 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "vitepress": "^1.0.0-alpha.29",
     "vue": "^3.2.45"
   }
