@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,e as l}from"./app.0830f693.js";const A=JSON.parse(`{"title":"JavaScript Objects and 'this'","description":"","frontmatter":{},"headers":[],"relativePath":"day3/object-this.md"}`),p={name:"day3/object-this.md"},o=l("",21),e=[o];function r(c,t,y,D,F,C){return n(),a("div",null,e)}const u=s(p,[["render",r]]);export{A as __pageData,u as default};
