@@ -2,7 +2,7 @@ export default {
   title: 'Documentation-Biome',
   description: 'Just playing around.',
   themeConfig: {
-    base: '/vipress/',
+    base: '/',
     nav: [
       { text: 'Repo', link: 'https://github.com/jtgober/vipress' },
       {
