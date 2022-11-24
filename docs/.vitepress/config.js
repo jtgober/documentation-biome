@@ -1,6 +1,7 @@
 export default {
   title: "Documentation-Biome",
   description: "Just playing around.",
+  base: process.env.TACO ? "/documentation-biome/" : "/",
   themeConfig: {
     nav: [
       {
