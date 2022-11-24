@@ -1,7 +1,6 @@
 export default {
   title: "Documentation-Biome",
   description: "Just playing around.",
-  base: "/documentation-biome/",
   themeConfig: {
     nav: [
       {
