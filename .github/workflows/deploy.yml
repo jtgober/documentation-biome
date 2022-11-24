@@ -19,11 +19,11 @@ jobs:
       - run: npm ci
 
       - name: Build
-        run: npm run docs:build --base /documentation-biome/
+        run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
-          cname: https://jtgober.github.io/documentation-biome/ # if wanna deploy to custom domain
+
