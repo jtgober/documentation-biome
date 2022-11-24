@@ -1,4 +1,8 @@
+const { BASE: base = "/" } = process.env;
+
 export default {
+  base,
+  outDir: `../dist/docs${base}`,
   title: "Documentation-Biome",
   description: "Just playing around.",
   themeConfig: {
@@ -9,9 +13,7 @@ export default {
       },
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/jtgober" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/jtgober" }],
     sidebar: [
       {
         text: "JavaScript Day 1",
