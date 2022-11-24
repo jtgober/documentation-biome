@@ -2,7 +2,7 @@ const { BASE: base = "/" } = process.env;
 
 export default {
   base,
-  outDir: `../dist/docs${base}`,
+  outDir: `/dist/docs${base}`,
   title: "Documentation-Biome",
   description: "Just playing around.",
   themeConfig: {
