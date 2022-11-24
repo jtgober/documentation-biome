@@ -4,8 +4,6 @@ export default {
   base: "/documentation-biome/",
   themeConfig: {
     nav: [
-      { text: "Repo", link: "https://github.com/jtgober/vipress" },
-
       {
         text: "Check this out",
         items: [{ text: "About me", link: "/about/about" }],
@@ -13,7 +11,7 @@ export default {
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/jtgober" },
     ],
     sidebar: [
       {
