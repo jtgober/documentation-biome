@@ -1,41 +1,62 @@
 export default {
-  title: 'Documentation-Biome',
-  description: 'Just playing around.',
-  base: '/vipress/',
+  title: "Documentation-Biome",
+  description: "Just playing around.",
+  base: "/vipress/",
   themeConfig: {
     nav: [
-      { text: 'Repo', link: 'https://github.com/jtgober/vipress' },
+      { text: "Repo", link: "https://github.com/jtgober/vipress" },
       {
-        text: 'Check this out',
+        text: "Check this out",
         items: [
-          { text: 'About me', link: '/about/about' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
-        ]
-      }
+          { text: "About me", link: "/about/about" },
+        ],
+      },
     ],
     sidebar: [
       {
-        text: 'About Section',
+        text: "JavaScript Day 1",
         collapsible: true,
         collapsed: true,
         items: [
-          { text: 'About Me', link: '/about' },
-          { text: 'About Me also but not really', link: 'https://en.wikipedia.org/wiki/Rickrolling' },
-        ]
+          { text: "Types and Comparisons", link: "/day1/types" },
+          {
+            text: "Variables and Template Literals",
+            link: "/day1/vars-template-literals",
+          },
+        ],
       },
       {
-        text: 'Another Section. to be written',
+        text: "JavaScript Day 2",
         collapsible: true,
         collapsed: true,
         items: [
-          { text: 'Item C', link: '/item-c' },
-          { text: 'Item D', link: '/item-d' },
-        ]
-      }
-    ]
+          { text: "Scope", link: "/day2/scope" },
+          { text: "Conditionals and Logic", link: "/day2/logic" },
+          { text: "Arrays", link: "/day2/arrays" },
+          { text: "Loops", link: "/day2/jsloops" },
+          { text: "Fizzbuzz", link: "/day2/fizzbuzz" },
+          { text: "Array Challenge", link: "/day2/arraychallenge" },
+          { text: "Odd or Even", link: "/day2/odd-or-even" },
+        ],
+      },
+      {
+        text: "JavaScript Day 3",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: "Functions", link: "/day3/functions" },
+          { text: "Classes", link: "/day3/jsclass" },
+          { text: "Objects and *this*", link: "/day3/object-this" },
+          {
+            text: "Class and Objects Challenge",
+            link: "/day3/class-objects-challenge",
+          },
+          { text: "Area Calc", link: "/day3/area-calc" },
+        ],
+      },
+    ],
   },
   markdown: {
-    lineNumbers: true
-  }
-}
+    lineNumbers: true,
+  },
+};
