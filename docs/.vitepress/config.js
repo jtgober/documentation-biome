@@ -1,7 +1,7 @@
 export default {
   title: "Documentation-Biome",
   description: "Just playing around.",
-  base: "/documentation-biome/",
+  base: process.env.CI ? "/documentation-biome/" : "/",
   themeConfig: {
     nav: [
       {
