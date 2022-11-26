@@ -2,7 +2,9 @@ export default {
   title: "Documentation-Biome",
   description: "Just playing around.",
   base: process.env.TACO ? "/documentation-biome/" : "/",
+  lastUpdated: true,
   themeConfig: {
+    logo:'basil.png',
     nav: [
       {
         text: "Check this out",
@@ -56,6 +58,6 @@ export default {
     ],
   },
   markdown: {
-    lineNumbers: true,
+     lineNumbers: true,
   },
 };
