@@ -4,11 +4,11 @@ export default {
   base: process.env.TACO ? "/documentation-biome/" : "/",
   lastUpdated: true,
   themeConfig: {
-    logo:'basil.png',
+    logo: "basil.png",
     nav: [
       {
-        text: "Check this out",
-        items: [{ text: "About me", link: "/about/about" }],
+        text: "About",
+        items: [{ text: "Me", link: "/about/about" }],
       },
     ],
 
@@ -57,7 +57,8 @@ export default {
       },
     ],
   },
+
   markdown: {
-     lineNumbers: true,
+    lineNumbers: true,
   },
 };
