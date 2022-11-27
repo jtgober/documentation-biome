@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,e as l}from"./app.1609d2c9.js";const i=JSON.parse('{"title":"Types and Comparisons","description":"","frontmatter":{},"headers":[],"relativePath":"day1/types.md","lastUpdated":1669088241000}'),p={name:"day1/types.md"},o=l("",2),e=[o];function r(c,t,C,y,D,A){return n(),a("div",null,e)}const u=s(p,[["render",r]]);export{i as __pageData,u as default};
