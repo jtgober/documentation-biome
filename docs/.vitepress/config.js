@@ -74,9 +74,9 @@ export default {
         collapsible: true,
         collapsed: true,
         items: [
-          { text: "Base Url, Grouping Tests", link: "/day5/home-page" },
+          { text: "Base Url", link: "/day5/home-page" },
+          { text: "Grouping and Parallel Sample App", link: "/day5/sample-app-parallel" },
           { text: "Dialog Boxes, Scroll bars", link: "/day5/class-attribute-scrolls" },
-          { text: "Parallel Sample App", link: "/day5/sample-app-parallel" },
           { text: "Progress Bar Challenge", link: "/day5/progress-bar-challenge" },
           { text: "Evaluating Elements", link: "/day5/playwright-mapping" },
           { text: "Dynamic Table Challenge", link: "/day5/dynamic-table-challenge" },
