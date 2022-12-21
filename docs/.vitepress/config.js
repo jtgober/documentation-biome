@@ -19,6 +19,8 @@ export default {
         collapsible: true,
         collapsed: true,
         items: [
+          { text: "Initial Setup", link: "/guide/getting-started" },
+          { text: "Visual studio code walk through", link: "/day1/vscode" },
           { text: "Types and Comparisons", link: "/day1/types" },
           {
             text: "Variables and Template Literals",
@@ -53,6 +55,42 @@ export default {
             link: "/day3/class-objects-challenge",
           },
           { text: "Area Calc", link: "/day3/area-calc" },
+        ],
+      },
+      {
+        text: "Playwright Day 4",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: "Installing Playwright", link: "/day4/playwright-installation" },
+          { text: "Playwright Tour", link: "/day4/playwright-tour" },
+          { text: "First Automation", link: "/day4/first-automation" },
+          { text: "Page Object Model", link: "/day4/page-object-model" },
+          { text: "Text Input Challenge", link: "/day4/text-input-challenge" },
+        ],
+      },
+      {
+        text: "Playwright Day 5",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: "Base Url, Grouping Tests", link: "/day5/home-page" },
+          { text: "Dialog Boxes, Scroll bars", link: "/day5/class-attribute-scrolls" },
+          { text: "Parallel Sample App", link: "/day5/sample-app-parallel" },
+          { text: "Progress Bar Challenge", link: "/day5/progress-bar-challenge" },
+          { text: "Evaluating Elements", link: "/day5/playwright-mapping" },
+          { text: "Dynamic Table Challenge", link: "/day5/dynamic-table-challenge" },
+        ],
+      },
+      {
+        text: "Git Day 6",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: "Git Configuration, Add, Remove, Commit Best Practices", link: "/day6/git-configuration-and-more" },
+          { text: "Git Cloning, Branches, Stashing, and Merging", link: "/day6/cloning-branching" },
+          { text: "Merge Conflicts, Undoing Staged Changes, and Other Tips", link: "/day6/merge-conflicts" },
+          { text: "Final Git Lecture on Diff, Diff-tools, Alias, and Forking", link: "/day6/final-git" },
         ],
       },
     ],
