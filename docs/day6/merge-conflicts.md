@@ -29,14 +29,14 @@ git merge main
 and here is where we have a merge conflict.
 
 
-TODO PNG HERE
+![](/merge-conflits1.png)
 
 
 VSCode gives us a few options here. We can Accept the current change, the incoming change, both changes, or we can compare them.
 
 For this example we can also use the IDE itself, and just remove the portions that we done need. so we can delete out the <<<<< HEAD, ===== and >>>> MAIN text objects
 
-TODO PNG HERE2
+![](/merge-conflits2.png)
 
 Now, we see we are in the feature/test branch but it also has the |MERGING appended. we can see by doing a git status that we have something we need to commit. both modified:   file1.txt
 
