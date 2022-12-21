@@ -35,9 +35,9 @@ git diff
 
 looking through this we can see there was an update that  states 
 
-```
--Give examples // [!code --]
-+Test // [!code ++]
+```sh
+Give examples // [!code --]
+Test // [!code ++]
 ```
 
 this looks fine, but if there were tons more changes, this would be pretty terrible to look through. Thats why so many people use GUI diff tools. or 
