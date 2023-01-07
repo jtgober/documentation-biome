@@ -93,6 +93,16 @@ export default {
           { text: "Final Git Lecture on Diff, Diff-tools, Alias, and Forking", link: "/day6/final-git" },
         ],
       },
+      {
+        text: "Api Testing Day 7",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: "What is an api and why should you test it", link: "/day7/api-start" },
+          { text: "Checking out the poke-api", link: "/day7/pokeapi-start" },
+          { text: "First JSON/API Challenge", link: "/day7/starter-pokemon" },
+        ],
+      },
     ],
   },
 
