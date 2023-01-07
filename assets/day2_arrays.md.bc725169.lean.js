@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,e as l}from"./app.9924c524.js";const A=JSON.parse('{"title":"JavaScript Array List","description":"","frontmatter":{},"headers":[],"relativePath":"day2/arrays.md","lastUpdated":1669088241000}'),e={name:"day2/arrays.md"},o=l("",28),p=[o];function t(r,c,i,y,D,d){return a(),n("div",null,p)}const F=s(e,[["render",t]]);export{A as __pageData,F as default};
