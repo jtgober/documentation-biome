@@ -1,6 +1,6 @@
 # Starter Pokemon Challenge
 This is the start of the pokemon challenge. 
-
+[Documentation can be found here](https://pokeapi.co/docs/v2#pokemon-species)
 ### Starter Code
 ```js
 const { test } = require('@playwright/test');
