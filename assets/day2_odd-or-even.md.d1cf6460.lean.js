@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,e}from"./app.c6b4f9ec.js";const D=JSON.parse('{"title":"Odd or Even Answer","description":"","frontmatter":{},"headers":[],"relativePath":"day2/odd-or-even.md","lastUpdated":1669088241000}'),l={name:"day2/odd-or-even.md"},p=e("",3),o=[p];function r(c,t,i,d,y,b){return n(),a("div",null,o)}const F=s(l,[["render",r]]);export{D as __pageData,F as default};
