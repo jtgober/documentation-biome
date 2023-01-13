@@ -103,7 +103,7 @@ export default {
           { text: "First JSON/API Challenge", link: "/day7/starter-pokemon" },
           { text: "Status Code Validations", link: "/day7/status-code-validations" },
           { text: "Snapshot Testing", link: "/day7/api-snapshots" },
-
+          { text: "Schema Testing", link: "/day7/json-schema-validation" },
 
         ],
       },
