@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,e as l}from"./app.c673b2e3.js";const i=JSON.parse('{"title":"JavaScript Class","description":"","frontmatter":{},"headers":[],"relativePath":"day3/jsclass.md","lastUpdated":1669088241000}'),p={name:"day3/jsclass.md"},o=l("",13),e=[o];function r(t,c,D,y,F,A){return n(),a("div",null,e)}const b=s(p,[["render",r]]);export{i as __pageData,b as default};
