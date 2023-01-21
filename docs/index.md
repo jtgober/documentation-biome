@@ -23,10 +23,10 @@ features:
   - icon: 🤖
     title: Test Automation from Scratch
     details: No experience necessary. Start from scratch with JavaScript and learn important concepts of test automation
-  - icon: 🐱‍🐉
+  - icon: 🔥
     title: Advance At Your Own Pace.
     details: Created with busy schedules in mind. Daily sections are roughly an hour long.
-  - icon: 😊
+  - icon: 🎉
     title: UI and API Testing
     details: Feel confident with automation and testing. Learn both Ui and API testing from scratch.
 
