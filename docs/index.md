@@ -2,7 +2,7 @@
 layout: home
 
 title: Documentation Biome
-titleTemplate: Vite & Vue Powered Static Site Generator
+titleTemplate: A day by day approach to automation testing
 
 hero:
   name: Documentation Biome
