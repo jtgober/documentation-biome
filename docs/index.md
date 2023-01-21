@@ -6,8 +6,11 @@ titleTemplate: A day by day approach to automation testing
 
 hero:
   name: Documentation Biome
-  text: Full tutorial and setup instructions
+  text: Documentation for Playwright Course
   tagline: Learning to automate one day at a time
+  image:
+    src: /robologo.png
+    alt: Vite
   actions:
     - theme: brand
       text: Get Started
@@ -17,11 +20,14 @@ hero:
       link: https://www.udemy.com/
 
 features:
-  - title: "Test Automation from Scratch"
+  - icon: 🤖
+    title: Test Automation from Scratch
     details: No experience necessary. Start from scratch with JavaScript and learn important concepts of test automation
-  - title: Advance At Your Own Pace.
+  - icon: 🐱‍🐉
+    title: Advance At Your Own Pace.
     details: Created with busy schedules in mind. Daily sections are roughly an hour long.
-  - title: UI and API Testing
+  - icon: 😊
+    title: UI and API Testing
     details: Feel confident with automation and testing. Learn both Ui and API testing from scratch.
 
 ---
