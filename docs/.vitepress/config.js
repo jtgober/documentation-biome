@@ -1,10 +1,10 @@
 export default {
-  title: "Documentation-Biome",
+  title: "Documentation Biome",
   description: "Just playing around.",
   base: process.env.TACO ? "/documentation-biome/" : "/",
   lastUpdated: true,
   themeConfig: {
-    logo: "basil.png",
+    logo: "robologohead.png",
     nav: [
       {
         text: "About",
@@ -12,7 +12,8 @@ export default {
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/jtgober" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/jtgober" },
+    { icon: "discord", link: "https://discord.gg/RvP2s9vsNJ" }],
     sidebar: [
       {
         text: "JavaScript Day 1",
