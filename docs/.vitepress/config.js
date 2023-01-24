@@ -108,6 +108,15 @@ export default {
 
         ],
       },
+      {
+        text: "Api Testing Day 8",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: "Checking out the pet store and query params", link: "/days/day8/petstore-query-params" },
+
+        ],
+      },
     ],
   },
 
