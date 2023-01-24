@@ -113,7 +113,9 @@ export default {
         collapsible: true,
         collapsed: true,
         items: [
+          { text: "A Challenge!??!", link: "/days/day8/setup-challenge" },
           { text: "Checking out the pet store and query params", link: "/days/day8/petstore-query-params" },
+          { text: "Post and Put", link: "/days/day8/post-and-put" },
 
         ],
       },

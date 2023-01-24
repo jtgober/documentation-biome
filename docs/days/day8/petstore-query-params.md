@@ -1,5 +1,6 @@
 # Checking out the pet store api and query parameters
-
+ // TODO needs video
+ 
 Alright. Were moving on from the poke api :frowning_face: because regrettably it only supports get requests (for good reasons). Using this api were going to take a more professional approach due to the apis being documented with open api (formerly swagger). Within open api we can directly test apis and see how they work. This is good for base testing, but we still will need to create automated tests off of these.
 
 ## Pet Store URL
