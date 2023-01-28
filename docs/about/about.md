@@ -8,7 +8,8 @@ const members = [
     title: 'QP Consultant',
     links: [
       { icon: 'github', link: 'https://github.com/jtgober' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/jgober/' }
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/jgober/' },
+      { icon: "twitter", link: "https://twitter.com/Gojobers" },
     ]
   },
 

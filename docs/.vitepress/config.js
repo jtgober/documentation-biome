@@ -12,8 +12,12 @@ export default {
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/jtgober" },
-    { icon: "discord", link: "https://discord.gg/RvP2s9vsNJ" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/jtgober" },
+      { icon: "discord", link: "https://discord.gg/RBEcgNtdpd" },
+      { icon: "twitter", link: "https://twitter.com/Gojobers" },
+
+    ],
     sidebar: [
       {
         text: "JavaScript Day 1",
@@ -117,6 +121,7 @@ export default {
           { text: "Checking out the pet store and query params", link: "/days/day8/petstore-query-params" },
           { text: "Post and Put", link: "/days/day8/post-and-put" },
           { text: "Add and Update Challenge", link: "/days/day8/post-put-challenge" },
+          { text: "Delete and ?", link: "/days/day8/delete" },
         ],
       },
     ],
