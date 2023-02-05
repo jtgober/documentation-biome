@@ -3,6 +3,7 @@ export default {
   description: "Just playing around.",
   base: process.env.TACO ? "/documentation-biome/" : "/",
   lastUpdated: true,
+  cleanUrls: true,
   themeConfig: {
     logo: "robologohead.png",
     nav: [
@@ -21,7 +22,6 @@ export default {
     sidebar: [
       {
         text: "JavaScript Day 1",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Initial Setup", link: "/guide/getting-started" },
@@ -35,7 +35,6 @@ export default {
       },
       {
         text: "JavaScript Day 2",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Scope", link: "/days/day2/scope" },
@@ -49,7 +48,6 @@ export default {
       },
       {
         text: "JavaScript Day 3",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Functions", link: "/days/day3/functions" },
@@ -64,7 +62,6 @@ export default {
       },
       {
         text: "Playwright Day 4",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Installing Playwright", link: "/days/day4/playwright-installation" },
@@ -76,7 +73,6 @@ export default {
       },
       {
         text: "Playwright Day 5",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Base Url", link: "/days/day5/home-page" },
@@ -89,7 +85,6 @@ export default {
       },
       {
         text: "Git Day 6",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Git Configuration, Add, Remove, Commit Best Practices", link: "/days/day6/git-configuration-and-more" },
@@ -100,7 +95,6 @@ export default {
       },
       {
         text: "Api Testing Day 7",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "What is an api and why should you test it", link: "/days/day7/api-start" },
@@ -114,7 +108,6 @@ export default {
       },
       {
         text: "Api Testing Day 8",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "A Challenge!??!", link: "/days/day8/setup-challenge" },
