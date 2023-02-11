@@ -14,9 +14,8 @@ export default {
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/jtgober" },
+      { icon: "github", link: "https://github.com/jtgober/documentation-biome" },
       { icon: "discord", link: "https://discord.gg/RBEcgNtdpd" },
-      { icon: "twitter", link: "https://twitter.com/Gojobers" },
 
     ],
     sidebar: [
