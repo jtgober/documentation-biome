@@ -8,7 +8,7 @@ Here's the logical flow the tests should go.
 3. `put` update the data id / name / whatever else
 4. `get` data to ensure it was updated correctly
 
-there are a few different ways to do this. it could eb qa single test or you could split them up into different tests like we did before. however, `try to create two different files with the stored data` so we can re-use them!
+there are a few different ways to do this. it could be single test or you could split them up into different tests like we did before. however, `try to create two different files with the stored data` so we can re-use them!
 :mage: best of luck!
 
 ::: danger STOP
