@@ -1,5 +1,5 @@
 # Post and Put requests
-// TODO Create Video
+
 Now we are finally moving on from get requests and leveling up to post/put request. just as a reminder, `post` request create new data, and `put` request can update data. With that being said, lets set up our `first` post request
 
 ## Post Requests

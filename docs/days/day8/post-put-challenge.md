@@ -1,7 +1,5 @@
 # Creating and updating Challenge
 
-// TODO Needs Video
-
 Ok. In the last video we got a decent set up for posting or putting. but now lets create a couple more to ensure the apis are behaving correctly.
 
 Here's the logical flow the tests should go.

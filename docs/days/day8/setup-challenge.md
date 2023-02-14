@@ -1,7 +1,5 @@
 # Starter Challenge !?!?!?! 
 
-// TODO Needs Video
-
 We've done this a few times now. So at this point you should have a good idea on what needs to be done to start a new project.
 
 1. Start a project folder called `petstore-api`
