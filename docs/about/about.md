@@ -36,7 +36,7 @@ const members = [
   <VPTeamPageTitle>
     <template #title>A little about me</template>
     <template #lead>
-  Father, Putt Putt fan, Doughnut Expert, Time Magazine's Person of the year (2006),Twitter Bot, Blogger
+  Father, Putt Putt Fan, Doughnut Expert, Time Magazine's Person of the year (2006), Twitter Bot, Blogger
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers size="medium" :members="members" />
