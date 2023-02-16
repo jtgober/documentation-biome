@@ -1,5 +1,15 @@
+---
+layout: page
+---
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamPageSection,
+  VPTeamMembers
+} from 'vitepress/theme'
+import DiscordWidget from '../components/discord-widget.vue'
+
 
 const members = [
   {
@@ -22,15 +32,17 @@ const members = [
 ]
 </script>
 
-# About me
-
-* Putt Putt :golf:
-* Father :man: :girl:
-* Doughnut Expert :doughnut:
-* Time Magazine's Person of the year (2006) :sunglasses:
-* Twitter Bot
-* Blogger
-
-<VPTeamMembers size="small" :members="members" />
-
-Open to chat!
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>A little about me</template>
+    <template #lead>
+  Father, Putt Putt fan, Doughnut Expert, Time Magazine's Person of the year (2006),Twitter Bot, Blogger
+    </template>
+  </VPTeamPageTitle>
+  <VPTeamMembers size="medium" :members="members" />
+  <VPTeamPageSection>
+    <template #title><DiscordWidget/></template>
+    <template #lead>Hop on discord and lets discuss stuff and things 
+    </template>
+  </VPTeamPageSection>
+</VPTeamPage>

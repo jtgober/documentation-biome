@@ -8,6 +8,10 @@ export default {
     logo: "robologohead.png",
     nav: [
       {
+        text: "Home",
+        items: [{ text: "Getting Started", link: "/guide/getting-started" }],
+      },
+      {
         text: "About",
         items: [{ text: "Me", link: "/about/about" }],
       },
@@ -15,7 +19,7 @@ export default {
 
     socialLinks: [
       { icon: "github", link: "https://github.com/jtgober/documentation-biome" },
-      { icon: "discord", link: "https://discord.gg/RBEcgNtdpd" },
+      { icon: "discord", link: "https://discord.gg/pRNhz2qtQC" },
 
     ],
     sidebar: [
