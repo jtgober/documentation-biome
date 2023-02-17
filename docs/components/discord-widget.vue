@@ -1,3 +1,9 @@
+<style>
+  .discord-widget iframe {
+    color-scheme: normal
+  }
+</style>
+
 <template>
   <div class="discord-widget">
     <iframe
@@ -10,6 +16,8 @@
     ></iframe>
   </div>
 </template>
+
+
 
 <script>
   export default {
