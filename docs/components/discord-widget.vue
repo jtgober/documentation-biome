@@ -1,7 +1,10 @@
 <style>
-  .discord-widget iframe {
-    color-scheme: normal
-  }
+.discord-widget iframe {
+  color-scheme: normal;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
 </style>
 
 <template>
@@ -17,10 +20,8 @@
   </div>
 </template>
 
-
-
 <script>
-  export default {
-    name: 'DiscordWidget'
-  }
-  </script>
+export default {
+  name: "DiscordWidget",
+};
+</script>

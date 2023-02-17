@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+
 <script setup>
 import {
   VPTeamPage,
@@ -40,9 +41,6 @@ const members = [
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers size="medium" :members="members" />
-  <VPTeamPageSection>
-    <template #title><DiscordWidget/></template>
-    <template #lead>Hop on discord and lets discuss stuff and things 
-    </template>
-  </VPTeamPageSection>
 </VPTeamPage>
+<h1 style ="display: block; margin: 0 auto; font-size: xx-large; text-align: center; margin-bottom: 30px;">Come chat about stuff and things in my community discord!</h1>
+    <DiscordWidget />
