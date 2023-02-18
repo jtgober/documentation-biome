@@ -9,7 +9,7 @@ hero:
   text: Documentation for Playwright Course
   tagline: Learning to automate one day at a time
   image:
-    src: /treenew.png
+    src: /logo.png
     alt: Vite
   actions:
     - theme: brand

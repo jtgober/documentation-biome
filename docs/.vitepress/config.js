@@ -5,7 +5,7 @@ export default {
   lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
-    logo: "treenewSmaller.png",
+    logo: "logo.png",
     nav: [
       {
         text: "Home",
