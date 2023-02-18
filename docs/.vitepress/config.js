@@ -5,7 +5,7 @@ export default {
   lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
-    logo: "robologohead.png",
+    logo: "treenewSmaller.png",
     nav: [
       {
         text: "Home",
@@ -13,7 +13,7 @@ export default {
       },
       {
         text: "About",
-        items: [{ text: "Me", link: "/about/about" }],
+        items: [{ text: "Me", link: "/about/gojo" }],
       },
     ],
 
