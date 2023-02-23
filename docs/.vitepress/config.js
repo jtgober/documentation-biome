@@ -121,6 +121,14 @@ export default {
           { text: "Final Api Challenge", link: "/days/day8/api-final" },
         ],
       },
+      {
+        text: "Api Testing Day 9",
+        collapsed: true,
+        items: [
+          { text: "Learning CI/CD!", link: "/days/day9/starting-cicd" },
+
+        ],
+      },
     ],
   },
 
