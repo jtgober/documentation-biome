@@ -5,8 +5,8 @@ Danger zone, do not proceed unless you gave it your all!
 :::
 
 ::: details Click me to view the code
-
-```js
+::: code-group
+```js [Class]
 class CharacterCreation { 
     constructor(name, charClass, level) { 
         this.name = name; 
@@ -38,7 +38,7 @@ class CharacterCreation {
 } 
 module.exports = { CharacterCreation }
 ```
-```js
+```js [Character Creation]
 const { CharacterCreation } = require("./Character-Creation.class")
 let Wizard = new CharacterCreation("Gandolf", "Wizard", 5)
 console.log(Wizard.attack());

@@ -16,8 +16,9 @@ Danger zone, do not proceed unless you gave it your all!
 :::
 
 ::: details Click me to view the code
-pet-endpoint.spec.js
-```js
+::: code-group
+
+```js [pet-endpoint.spec.js]
 // @ts-check
 const { test, expect } = require('@playwright/test');
 const petData = require('../data/pet.json')
@@ -54,27 +55,27 @@ test('check that pet was updated', async ({ request }) => {
   expect(petName).toBe('Sponge')
 })
 ```
- pet.json
-```json
+
+```json [pet.json]
 {
-    "id": 7864265,
-    "category": {
+  "id": 7864265,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "Sponge",
+  "photoUrls": ["string"],
+  "tags": [
+    {
       "id": 0,
-      "name": "string"
-    },
-    "name": "Sponge",
-    "photoUrls": ["string"],
-    "tags": [
-      {
-        "id": 0,
-        "name": "Bob"
-      }
-    ],
-    "status": "available"
-  }
-```
-updatePet.json
-```json
+      "name": "Bob"
+    }
+  ],
+  "status": "available"
+}
+  ```
+
+```json [updatePet.json]
 {
   "id": 123578,
   "category": {
@@ -92,5 +93,4 @@ updatePet.json
   "status": "available"
 }
 ```
-
 :::

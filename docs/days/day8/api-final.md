@@ -15,8 +15,8 @@ Danger zone, do not proceed unless you gave it your all!
 
 ::: details Click me to view the code
 
-### store-order.json
-```json
+::: code-group
+```json [store-order.json]
 {
     "id": 10,
     "petId": 10,
@@ -26,9 +26,8 @@ Danger zone, do not proceed unless you gave it your all!
     "complete": true
 }
 ```
-### store-endpoint.spec.js
-```js
 
+```js [store-endpoint.spec.js]
 const { test, expect } = require('@playwright/test');
 const storeData = require('../data/store-order.json')
 
