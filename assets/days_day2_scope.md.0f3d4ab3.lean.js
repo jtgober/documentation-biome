@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,g as e}from"./app.eb7b74a9.js";const F=JSON.parse('{"title":"Scope","description":"","frontmatter":{},"headers":[],"relativePath":"days/day2/scope.md","lastUpdated":1673638586000}'),l={name:"days/day2/scope.md"},p=e("",19),o=[p];function t(r,c,i,y,D,C){return a(),n("div",null,o)}const d=s(l,[["render",t]]);export{F as __pageData,d as default};
