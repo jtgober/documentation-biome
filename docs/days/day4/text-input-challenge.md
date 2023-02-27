@@ -5,10 +5,8 @@ Danger zone, do not proceed unless you gave it your all!
 :::
 
 ::: details Click me to view the code
-
-```js
-//text-input.spec.js 
-
+::: code-group
+```js [text-input.spec.js]
 const { test } = require('@playwright/test'); 
 const { TextInputPage } = require('./models/text-input.model')
 const myButton = "The Best Button"
@@ -21,10 +19,7 @@ test('test updating button', async ({ page }) => {
     await textInputPage.expectTextInputToBe(myButton) 
 })
 ```
-
-```js
-//text-input.model.js
-
+```js [text-input.model.js]
 const { expect } = require('@playwright/test'); 
 exports.TextInputPage = class TextInputPage { 
     constructor(page) { 

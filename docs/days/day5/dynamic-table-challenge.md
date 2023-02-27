@@ -5,7 +5,8 @@ Danger zone, do not proceed unless you gave it your all!
 :::
 
 ::: details Click me to view the code
-```js
+::: code-group
+```js [dynamic-table.spec.js ]
 const { test, expect } = require("@playwright/test");
 const { DynamicTablePage } = require("../models/dynamic-table.model");
 test("Testing Dynamic Table Page", async ({ page }) => {
@@ -19,7 +20,7 @@ test("Testing Dynamic Table Page", async ({ page }) => {
 ```
 
 
-```js
+```js [dynamic-table.model.js]
 exports.DynamicTablePage = class DynamicTablePage {
     constructor(page) {
         this.page = page;

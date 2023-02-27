@@ -11,4 +11,4 @@ Since we are learning JavaScript, We also need to install NodeJs. When downloadi
 For source code management, were going to use Github. We will need to create and account and also have git installed on our machines. First, [set up a github account here](https://github.com/) Once that is complete, [go here to download git for windows/mac](https://git-scm.com/)
 
 ## Community Discord
-I Created a discord server! Totally optional but lets connect! [The Discord desktop app can be found here](https://discord.com/) and then the community can be accessed through this link! [Gojo's Test Automation Community](https://discord.gg/RvP2s9vsNJ)
+I Created a discord server! Totally optional but lets connect! [The Discord desktop app can be found here](https://discord.com/) and then the community can be accessed through this link! [Test Automation Community](https://discord.gg/pRNhz2qtQC)

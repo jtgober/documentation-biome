@@ -1,4 +1,4 @@
-# Api Snapshots Testing
+# Api Snapshots Testing 
 
 First and for most, what is an api snapshot testing? Snapshot testing is a type of comparison testing. Snapshot testing makes sure that the ui does not change unexpectedly.
 

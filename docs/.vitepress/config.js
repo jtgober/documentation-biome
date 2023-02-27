@@ -3,21 +3,28 @@ export default {
   description: "Just playing around.",
   base: process.env.TACO ? "/documentation-biome/" : "/",
   lastUpdated: true,
+  cleanUrls: true,
   themeConfig: {
-    logo: "robologohead.png",
+    logo: "logo.png",
     nav: [
       {
+        text: "Home",
+        items: [{ text: "Getting Started", link: "/guide/getting-started" }],
+      },
+      {
         text: "About",
-        items: [{ text: "Me", link: "/about/about" }],
+        items: [{ text: "Me", link: "/about/gojo" }],
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/jtgober" },
-    { icon: "discord", link: "https://discord.gg/RvP2s9vsNJ" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/jtgober/documentation-biome" },
+      { icon: "discord", link: "https://discord.gg/pRNhz2qtQC" },
+
+    ],
     sidebar: [
       {
         text: "JavaScript Day 1",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Initial Setup", link: "/guide/getting-started" },
@@ -31,7 +38,6 @@ export default {
       },
       {
         text: "JavaScript Day 2",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Scope", link: "/days/day2/scope" },
@@ -45,7 +51,6 @@ export default {
       },
       {
         text: "JavaScript Day 3",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Functions", link: "/days/day3/functions" },
@@ -60,7 +65,6 @@ export default {
       },
       {
         text: "Playwright Day 4",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Installing Playwright", link: "/days/day4/playwright-installation" },
@@ -72,7 +76,6 @@ export default {
       },
       {
         text: "Playwright Day 5",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Base Url", link: "/days/day5/home-page" },
@@ -85,7 +88,6 @@ export default {
       },
       {
         text: "Git Day 6",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "Git Configuration, Add, Remove, Commit Best Practices", link: "/days/day6/git-configuration-and-more" },
@@ -96,7 +98,6 @@ export default {
       },
       {
         text: "Api Testing Day 7",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "What is an api and why should you test it", link: "/days/day7/api-start" },
@@ -105,6 +106,26 @@ export default {
           { text: "Status Code Validations", link: "/days/day7/status-code-validations" },
           { text: "Snapshot Testing", link: "/days/day7/api-snapshots" },
           { text: "Schema Testing", link: "/days/day7/json-schema-validation" },
+
+        ],
+      },
+      {
+        text: "Api Testing Day 8",
+        collapsed: true,
+        items: [
+          { text: "A Challenge!??!", link: "/days/day8/setup-challenge" },
+          { text: "Checking out the pet store and query params", link: "/days/day8/petstore-query-params" },
+          { text: "Post and Put", link: "/days/day8/post-and-put" },
+          { text: "Add and Update Challenge", link: "/days/day8/post-put-challenge" },
+          { text: "Delete", link: "/days/day8/delete" },
+          { text: "Final Api Challenge", link: "/days/day8/api-final" },
+        ],
+      },
+      {
+        text: "Api Testing Day 9",
+        collapsed: true,
+        items: [
+          { text: "Learning CI/CD!", link: "/days/day9/starting-cicd" },
 
         ],
       },
