@@ -128,7 +128,7 @@ export default {
         ],
       },
       {
-        text: "Api Testing Day 9",
+        text: "Continuous Integration and Development Day 9",
         collapsed: true,
         items: [
           { text: "Learning CI/CD!", link: "/days/day9/starting-cicd" },
