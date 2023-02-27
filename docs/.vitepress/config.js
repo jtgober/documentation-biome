@@ -6,6 +6,12 @@ export default {
   cleanUrls: true,
   themeConfig: {
     logo: "logo.png",
+    algolia: {
+      appId: 'L48G8NU1LT',
+      apiKey: 'c877333d76129e5064688a120390468a',
+      indexName: 'wwwumentation-biome',
+    },
+
     nav: [
       {
         text: "Home",
