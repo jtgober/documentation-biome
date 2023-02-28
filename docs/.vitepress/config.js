@@ -132,6 +132,7 @@ export default {
         collapsed: true,
         items: [
           { text: "Learning CI/CD!", link: "/days/day9/starting-cicd" },
+          { text: "Github Secrets and Environment vars", link: "/days/day9/secrets-and-env" },
 
         ],
       },
