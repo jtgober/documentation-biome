@@ -133,6 +133,7 @@ export default {
         items: [
           { text: "Learning CI/CD!", link: "/days/day9/starting-cicd" },
           { text: "Github Secrets and Environment vars", link: "/days/day9/secrets-and-env" },
+          { text: "Process Env in Local", link: "/days/day9/local-env" },
 
         ],
       },
