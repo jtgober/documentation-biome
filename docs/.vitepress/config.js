@@ -46,13 +46,14 @@ export default {
         text: "JavaScript Day 2",
         collapsed: true,
         items: [
-          { text: "Scope", link: "/days/day2/scope" },
+
           { text: "Conditionals and Logic", link: "/days/day2/logic" },
+          { text: "Odd or Even", link: "/days/day2/odd-or-even" },
+          { text: "Scope", link: "/days/day2/scope" },
           { text: "Arrays", link: "/days/day2/arrays" },
+          { text: "Array Challenge", link: "/days/day2/arraychallenge" },
           { text: "Loops", link: "/days/day2/jsloops" },
           { text: "Fizzbuzz", link: "/days/day2/fizzbuzz" },
-          { text: "Array Challenge", link: "/days/day2/arraychallenge" },
-          { text: "Odd or Even", link: "/days/day2/odd-or-even" },
         ],
       },
       {
