@@ -61,13 +61,10 @@ export default {
         collapsed: true,
         items: [
           { text: "Functions", link: "/days/day3/functions" },
-          { text: "Classes", link: "/days/day3/jsclass" },
-          { text: "Objects and *this*", link: "/days/day3/object-this" },
-          {
-            text: "Class and Objects Challenge",
-            link: "/days/day3/class-objects-challenge",
-          },
           { text: "Area Calc", link: "/days/day3/area-calc" },
+          { text: "Objects and *this*", link: "/days/day3/object-this" },
+          { text: "Classes", link: "/days/day3/jsclass" },
+          { text: "Class and Objects Challenge", link: "/days/day3/class-objects-challenge", },
         ],
       },
       {
