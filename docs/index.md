@@ -17,7 +17,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: View Course!
-      link: [Course Landing page!](https://www.udemy.com/course/2023-updated-quality-engineering-guide-with-playwright/)
+      link: https://www.udemy.com/course/2023-updated-quality-engineering-guide-with-playwright/
 
 features:
   - icon: 🤖
