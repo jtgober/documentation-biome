@@ -1,0 +1,1 @@
+# The Playwright VSCode Extension
