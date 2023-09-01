@@ -145,8 +145,8 @@ export default {
         text: "Playwright Additional Learning",
         collapsed: true,
         items: [
-          { text: "Playwright UI Mode", link: "/additionals/ui-mode" },
           { text: "Playwright Extension", link: "/additionals/playwright-extension" },
+          { text: "Playwright UI Mode", link: "/additionals/ui-mode" },
           { text: "Playwright Mocking", link: "/additionals/playwright-api-mocking" },
           { text: "Visual Regression Testing", link: "/additionals/visual-regression-testing" },
         ],
