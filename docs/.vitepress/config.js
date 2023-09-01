@@ -4,6 +4,11 @@ export default {
   base: process.env.TACO ? "/documentation-biome/" : "/",
   lastUpdated: true,
   cleanUrls: true,
+
+  head: [
+    ['link', { rel: 'icon', href: '/logo.png' }],
+  ],
+
   themeConfig: {
     logo: "logo.png",
     algolia: {
@@ -134,6 +139,16 @@ export default {
           { text: "Process Env in Local", link: "/days/day9/local-env" },
           { text: "Workflow Triggers", link: "/days/day9/workflow-triggers" },
 
+        ],
+      },
+      {
+        text: "Playwright Additional Learning",
+        collapsed: true,
+        items: [
+          { text: "Playwright UI Mode", link: "/additionals/ui-mode" },
+          { text: "Playwright Extension", link: "/additionals/playwright-extension" },
+          { text: "Playwright Mocking", link: "/additionals/playwright-mocking" },
+          { text: "Visual Regression Testing", link: "/additionals/visual-regression-testing" },
         ],
       },
     ],
