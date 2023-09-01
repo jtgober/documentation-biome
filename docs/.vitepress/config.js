@@ -147,7 +147,7 @@ export default {
         items: [
           { text: "Playwright UI Mode", link: "/additionals/ui-mode" },
           { text: "Playwright Extension", link: "/additionals/playwright-extension" },
-          { text: "Playwright Mocking", link: "/additionals/playwright-mocking" },
+          { text: "Playwright Mocking", link: "/additionals/playwright-api-mocking" },
           { text: "Visual Regression Testing", link: "/additionals/visual-regression-testing" },
         ],
       },
