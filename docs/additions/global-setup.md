@@ -1,6 +1,6 @@
 # Global Setup
 
-Ok were gonna get a little fancy now (adn more advanced) here and create a global setup using `Project Dependencies`
+Ok were gonna get a little fancy now (and more advanced) here and create a global setup using `Project Dependencies`
 
 According to the playwright.dev docs
 > "Project dependencies are a list of projects that need to run before the tests in another project run. They can be useful for configuring the global setup actions so that one project depends on this running first. Using dependencies allows global setup to produce traces and other artifacts."
