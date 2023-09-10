@@ -13,7 +13,7 @@ With Playwright, it can highlight any differences between a baseline (expected i
 Things can often change on webpages. Some differences can be due to the following.
 * Changes in the code
 * Changes in Content or data
-* Browser updates
+* Browser updates (or different browsers in general)
 
 ## How is this helpful?
 
