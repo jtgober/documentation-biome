@@ -149,7 +149,7 @@ export default {
           { text: "Playwright UI Mode", link: "/additions/ui-mode" },
           { text: "Playwright Mocking", link: "/additions/playwright-api-mocking" },
           { text: "Global Setup", link: "/additions/global-setup" },
-          { text: "Visual Regression Testing", link: "/additions/visual-regression-testing" },
+          { text: "Visual Comparison Testing", link: "/additions/visual-comparison-testing" },
         ],
       },
     ],

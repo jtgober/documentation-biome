@@ -112,7 +112,9 @@ This is neat stuff byt why do mocking?
 ## Usefulness of Mocks
 
 `Test Isolation:` this is when dependencies are still in development, under maintenance, or have rate limits or usage fees.
+
 `Testing without External Dependencies:` API mocking allows you to test your code even when the real API or service is unavailable or unreliable.
+
 `Predictable Testing Environments:` Mocked APIs provide a controlled and predictable testing environment.
 
 Theses are just the tip of the iceberg when it comes to `Mocking`. It can be a very valuable tool and a great asset to your arsenal! 
