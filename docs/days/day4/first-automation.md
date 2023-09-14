@@ -28,7 +28,7 @@ Although it is a good tool. it isn't without faults. finding everything by text 
 ## Element Selector Examples
 
 ::: warning
-Although this information is still accurate, this is no longer best practice
+Although this information is still accurate, We should try for the new locators types when applicable 
 :::
 
 
@@ -43,7 +43,7 @@ Although this information is still accurate, this is no longer best practice
 
 the main one to use would be by ID if it is available, because id's are unique, and don't have duplicates on a page. However, if you have a dynamic id, it will change every time on page load, and should not be used.
 
-## Better locators
+## New locator Types
 ::: tip
 A list of the new best practice locators
 :::
