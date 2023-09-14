@@ -8,7 +8,7 @@ Specifically, lets check on the sample app link.
 
 Within the sample app it looks to be a simple login script. We can use any username here, and `pwd` as the password
 
-![](/hello-sampleapp.png)
+![](/hellosampleapp.png)
 
 
 ## Automation Playground Codegen
@@ -79,4 +79,4 @@ test('test', async ({ page }) => {
 
 Not to mention none of these are `reusable`
 
-We need to make sure we build reusable and stable tests early
+We need to make sure we build reusable and stable tests early so we can build our scenarios 
