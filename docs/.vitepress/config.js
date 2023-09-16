@@ -81,6 +81,8 @@ export default {
           { text: "First Automation", link: "/days/day4/first-automation" },
           { text: "Page Object Model", link: "/days/day4/page-object-model" },
           { text: "Text Input Challenge", link: "/days/day4/text-input-challenge" },
+          { text: "Debugging UI Tests", link: "/days/day4/Debugging-and-running-tests" },
+
         ],
       },
       {
