@@ -34,10 +34,10 @@ Although this information is still accurate, We should try for the new locators 
 
 | Element Selectors  | how to select in playwright (symbol) |                       example |
 | ------------------ | :----------------------------------: | :----------------------------: |
-| CSS Selector Class |                  .                   |   page.click('.btn-primary'); |
-| CSS Selector ID    |                  #                   |   page.click('#btn-primary'); |
-| By Text            |                text=                 |    page.click('text=Button'); |
-| By Xpath           |                xpath=                | page.click('xpath=//button'); |
+| CSS Selector Class |                  .                   |   page.locator('.btn-primary'); |
+| CSS Selector ID    |                  #                   |   page.locator('#btn-primary'); |
+| By Text            |                text=                 |    page.locator('text=Button'); |
+| By Xpath           |                xpath=                | page.locator('xpath=//button'); |
 
 
 

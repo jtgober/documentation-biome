@@ -78,11 +78,11 @@ export default {
         items: [
           { text: "Installing Playwright", link: "/days/day4/playwright-installation" },
           { text: "Playwright Tour", link: "/days/day4/playwright-tour" },
+          { text: "Selecting Locators", link: "/days/day4/selecting-locators" },
           { text: "First Automation", link: "/days/day4/first-automation" },
           { text: "Page Object Model", link: "/days/day4/page-object-model" },
           { text: "Text Input Challenge", link: "/days/day4/text-input-challenge" },
           { text: "Debugging UI Tests", link: "/days/day4/Debugging-and-running-tests" },
-
         ],
       },
       {
