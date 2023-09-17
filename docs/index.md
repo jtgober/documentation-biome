@@ -10,7 +10,7 @@ hero:
   tagline: Learning to automate one day at a time
   image:
     src: /logo.png
-    alt: Vite
+    alt: doc-biome
   actions:
     - theme: brand
       text: Get Started

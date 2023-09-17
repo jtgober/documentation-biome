@@ -10,7 +10,7 @@ export default {
   ],
 
   themeConfig: {
-    logo: "logo.png",
+    logo: { src: 'logo.png', alt: 'doc-biome' },
     algolia: {
       appId: 'L48G8NU1LT',
       apiKey: 'c877333d76129e5064688a120390468a',
