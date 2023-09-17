@@ -178,7 +178,7 @@ You can check the issues count after locating it by the title text:
 await expect(page.getByTitle("Issues count")).toHaveText("25 issues");
 ```
 
-## page.getBygetByTestId()
+## page.getByTestId()
 
 :::tip When to use get by test id
 You can also use test ids when you choose to use the test id methodology or when you can't locate by role or text
