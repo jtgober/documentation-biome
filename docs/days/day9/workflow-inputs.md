@@ -61,4 +61,58 @@ The workflow consists of the following steps:
    - Action: `actions/upload-artifact@v3`
    - Description: Uploads the 'playwright-report/' directory as an artifact, but only if the `upload-artifact` input is set to true. The artifact will be retained for 30 days.
 
-This documentation provides an overview of the "Workflow Input Triggers" workflow and how to manually trigger and customize its behavior using input parameters.
+
+## full yaml file
+```yaml
+name: workflow input triggers
+
+on:
+  workflow_dispatch:
+    inputs:
+      node-version:
+        description: 'Node.js version'
+        required: false
+        default: '14.x' # Default Node.js version if not provided
+      npm-install-command:
+        description: 'npm install command'
+        required: true
+      run-playwright:
+        description: 'Enable Playwright testing'
+        required: false
+        default: 'true' # Enable Playwright testing by default
+      upload-artifact:
+        description: 'Enable artifact upload'
+        required: false
+        default: 'true' # Enable artifact upload by default
+
+jobs:
+  run-workflow-triggers:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ inputs.node-version }}
+
+    - name: Install Dependencies
+      run: npm ${{ inputs.npm-install-command }}
+
+    - name: Install Playwright Browsers
+      if: ${{ inputs.run-playwright == 'true' }}
+      run: npx playwright install --with-deps
+
+    - name: Run Playwright Tests
+      if: ${{ inputs.run-playwright == 'true' }}
+      run: npx playwright test
+
+    - name: Upload Artifact
+      if: ${{ inputs.upload-artifact == 'true' }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: playwright-report
+        path: playwright-report/
+```
