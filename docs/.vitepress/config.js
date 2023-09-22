@@ -141,7 +141,8 @@ export default {
           { text: "Github Secrets and Environment vars", link: "/days/day9/secrets-and-env" },
           { text: "Process Env in Local", link: "/days/day9/local-env" },
           { text: "Workflow Triggers", link: "/days/day9/workflow-triggers" },
-
+          { text: "Workflow Inputs", link: "/days/day9/workflow-inputs" },
+          { text: "Reusable Flow", link: "/days/day9/reusable-flow" }
         ],
       },
       {
