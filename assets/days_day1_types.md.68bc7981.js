@@ -1,4 +1,4 @@
-import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.f4487b77.js";const C=JSON.parse('{"title":"Types and Comparisons","description":"","frontmatter":{},"headers":[],"relativePath":"days/day1/types.md","filePath":"days/day1/types.md","lastUpdated":1673638586000}'),p={name:"days/day1/types.md"},o=l(`<h1 id="types-and-comparisons" tabindex="-1">Types and Comparisons <a class="header-anchor" href="#types-and-comparisons" aria-label="Permalink to &quot;Types and Comparisons&quot;">​</a></h1><div class="language-js vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki github-dark has-diff vp-code-dark"><code><span class="line"><span style="color:#6A737D;">// -------------- Numbers and math operations</span></span>
+import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.f4487b77.js";const C=JSON.parse('{"title":"Types and Comparisons","description":"","frontmatter":{},"headers":[],"relativePath":"days/day1/types.md","filePath":"days/day1/types.md","lastUpdated":1700671057000}'),p={name:"days/day1/types.md"},o=l(`<h1 id="types-and-comparisons" tabindex="-1">Types and Comparisons <a class="header-anchor" href="#types-and-comparisons" aria-label="Permalink to &quot;Types and Comparisons&quot;">​</a></h1><div class="language-js vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki github-dark has-diff vp-code-dark"><code><span class="line"><span style="color:#6A737D;">// -------------- Numbers and math operations</span></span>
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">+</span><span style="color:#E1E4E8;"> </span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;">) </span><span style="color:#6A737D;">// 6</span></span>
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">-</span><span style="color:#E1E4E8;"> </span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;">) </span><span style="color:#6A737D;">// 0</span></span>
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">*</span><span style="color:#E1E4E8;"> </span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;">) </span><span style="color:#6A737D;">// 9</span></span>
@@ -10,7 +10,7 @@ import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.f4487b77.js";const C=
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#79B8FF;">12</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">%</span><span style="color:#E1E4E8;"> </span><span style="color:#79B8FF;">5</span><span style="color:#E1E4E8;">) </span><span style="color:#6A737D;">// 2</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#6A737D;">// ------------------- Strings</span></span>
-<span class="line"><span style="color:#6A737D;">//we can also type out full sentances with string like</span></span>
+<span class="line"><span style="color:#6A737D;">//we can also type out full sentences with string like</span></span>
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#9ECBFF;">&quot;I see Coffee and donuts in my future&quot;</span><span style="color:#E1E4E8;">) </span><span style="color:#6A737D;">// prints</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#6A737D;">//we can also combine strings like this</span></span>
@@ -19,7 +19,7 @@ import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.f4487b77.js";const C=
 <span class="line"><span style="color:#6A737D;">//Single quotes are also acceptable</span></span>
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#9ECBFF;">&#39;Hey this works too!&#39;</span><span style="color:#E1E4E8;">) </span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#6A737D;">//However watch out for sentances like this</span></span>
+<span class="line"><span style="color:#6A737D;">//However watch out for sentences like this</span></span>
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#9ECBFF;">&#39;i don&#39;</span><span style="color:#E1E4E8;">t like coffee</span><span style="color:#9ECBFF;">&#39;) // will fai</span><span style="color:#FDAEB7;font-style:italic;">l</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#6A737D;">//we need to add an \\ before the &#39; in don&#39;t to get this working properly </span></span>
@@ -40,14 +40,14 @@ import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.f4487b77.js";const C=
 <span class="line"><span style="color:#6A737D;">// ------------------- Booleans and Comparisons</span></span>
 <span class="line"><span style="color:#6A737D;">//true or false</span></span>
 <span class="line"><span style="color:#6A737D;">//and with booleans its easy to show with comparisons so lets also talk about that.</span></span>
-<span class="line"><span style="color:#6A737D;">//the 2x = operater is a abstract comparison.</span></span>
+<span class="line"><span style="color:#6A737D;">//the 2x = operator is a abstract comparison.</span></span>
 <span class="line"><span style="color:#6A737D;">//so, </span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#6A737D;">//it doesnt check for exact type matching</span></span>
+<span class="line"><span style="color:#6A737D;">//it doesn&#39;t check for exact type matching</span></span>
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">==</span><span style="color:#E1E4E8;"> </span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;">) </span><span style="color:#6A737D;">// true</span></span>
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#9ECBFF;">&quot;3&quot;</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">==</span><span style="color:#E1E4E8;"> </span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;">) </span><span style="color:#6A737D;">// also true</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#6A737D;">//the 3x = operater is a STRICT type comparison.</span></span>
+<span class="line"><span style="color:#6A737D;">//the 3x = operator is a STRICT type comparison.</span></span>
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">===</span><span style="color:#E1E4E8;"> </span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;">) </span><span style="color:#6A737D;">// true </span></span>
 <span class="line"><span style="color:#E1E4E8;">console.</span><span style="color:#B392F0;">log</span><span style="color:#E1E4E8;">(</span><span style="color:#9ECBFF;">&quot;3&quot;</span><span style="color:#E1E4E8;"> </span><span style="color:#F97583;">===</span><span style="color:#E1E4E8;"> </span><span style="color:#79B8FF;">3</span><span style="color:#E1E4E8;">) </span><span style="color:#6A737D;">// false, as it is also checking for type matching</span></span>
 <span class="line"></span>
@@ -84,7 +84,7 @@ import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.f4487b77.js";const C=
 <span class="line"><span style="color:#24292E;">console.</span><span style="color:#6F42C1;">log</span><span style="color:#24292E;">(</span><span style="color:#005CC5;">12</span><span style="color:#24292E;"> </span><span style="color:#D73A49;">%</span><span style="color:#24292E;"> </span><span style="color:#005CC5;">5</span><span style="color:#24292E;">) </span><span style="color:#6A737D;">// 2</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#6A737D;">// ------------------- Strings</span></span>
-<span class="line"><span style="color:#6A737D;">//we can also type out full sentances with string like</span></span>
+<span class="line"><span style="color:#6A737D;">//we can also type out full sentences with string like</span></span>
 <span class="line"><span style="color:#24292E;">console.</span><span style="color:#6F42C1;">log</span><span style="color:#24292E;">(</span><span style="color:#032F62;">&quot;I see Coffee and donuts in my future&quot;</span><span style="color:#24292E;">) </span><span style="color:#6A737D;">// prints</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#6A737D;">//we can also combine strings like this</span></span>
@@ -93,7 +93,7 @@ import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.f4487b77.js";const C=
 <span class="line"><span style="color:#6A737D;">//Single quotes are also acceptable</span></span>
 <span class="line"><span style="color:#24292E;">console.</span><span style="color:#6F42C1;">log</span><span style="color:#24292E;">(</span><span style="color:#032F62;">&#39;Hey this works too!&#39;</span><span style="color:#24292E;">) </span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#6A737D;">//However watch out for sentances like this</span></span>
+<span class="line"><span style="color:#6A737D;">//However watch out for sentences like this</span></span>
 <span class="line"><span style="color:#24292E;">console.</span><span style="color:#6F42C1;">log</span><span style="color:#24292E;">(</span><span style="color:#032F62;">&#39;i don&#39;</span><span style="color:#24292E;">t like coffee</span><span style="color:#032F62;">&#39;) // will fai</span><span style="color:#B31D28;font-style:italic;">l</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#6A737D;">//we need to add an \\ before the &#39; in don&#39;t to get this working properly </span></span>
@@ -114,14 +114,14 @@ import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.f4487b77.js";const C=
 <span class="line"><span style="color:#6A737D;">// ------------------- Booleans and Comparisons</span></span>
 <span class="line"><span style="color:#6A737D;">//true or false</span></span>
 <span class="line"><span style="color:#6A737D;">//and with booleans its easy to show with comparisons so lets also talk about that.</span></span>
-<span class="line"><span style="color:#6A737D;">//the 2x = operater is a abstract comparison.</span></span>
+<span class="line"><span style="color:#6A737D;">//the 2x = operator is a abstract comparison.</span></span>
 <span class="line"><span style="color:#6A737D;">//so, </span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#6A737D;">//it doesnt check for exact type matching</span></span>
+<span class="line"><span style="color:#6A737D;">//it doesn&#39;t check for exact type matching</span></span>
 <span class="line"><span style="color:#24292E;">console.</span><span style="color:#6F42C1;">log</span><span style="color:#24292E;">(</span><span style="color:#005CC5;">3</span><span style="color:#24292E;"> </span><span style="color:#D73A49;">==</span><span style="color:#24292E;"> </span><span style="color:#005CC5;">3</span><span style="color:#24292E;">) </span><span style="color:#6A737D;">// true</span></span>
 <span class="line"><span style="color:#24292E;">console.</span><span style="color:#6F42C1;">log</span><span style="color:#24292E;">(</span><span style="color:#032F62;">&quot;3&quot;</span><span style="color:#24292E;"> </span><span style="color:#D73A49;">==</span><span style="color:#24292E;"> </span><span style="color:#005CC5;">3</span><span style="color:#24292E;">) </span><span style="color:#6A737D;">// also true</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#6A737D;">//the 3x = operater is a STRICT type comparison.</span></span>
+<span class="line"><span style="color:#6A737D;">//the 3x = operator is a STRICT type comparison.</span></span>
 <span class="line"><span style="color:#24292E;">console.</span><span style="color:#6F42C1;">log</span><span style="color:#24292E;">(</span><span style="color:#005CC5;">3</span><span style="color:#24292E;"> </span><span style="color:#D73A49;">===</span><span style="color:#24292E;"> </span><span style="color:#005CC5;">3</span><span style="color:#24292E;">) </span><span style="color:#6A737D;">// true </span></span>
 <span class="line"><span style="color:#24292E;">console.</span><span style="color:#6F42C1;">log</span><span style="color:#24292E;">(</span><span style="color:#032F62;">&quot;3&quot;</span><span style="color:#24292E;"> </span><span style="color:#D73A49;">===</span><span style="color:#24292E;"> </span><span style="color:#005CC5;">3</span><span style="color:#24292E;">) </span><span style="color:#6A737D;">// false, as it is also checking for type matching</span></span>
 <span class="line"></span>
