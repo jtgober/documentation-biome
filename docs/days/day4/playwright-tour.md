@@ -27,7 +27,7 @@ cool beans! so looks like it ran 5 different "devices". we can also watch this h
 npx playwright test --headed
 ```
 
-...and we see the browsers load with different viewports. lets take a quick dive into the playwright.config.js
+...and we see the browsers load with different view ports. lets take a quick dive into the playwright.config.js
 
 ```js
 projects: [ 

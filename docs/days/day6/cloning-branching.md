@@ -43,7 +43,7 @@ lets checkout feature/test again and im going to create a file3
 git checkout feature/test
 ```
 
-lets pretend for a moment that we are working on file3 and something comes up and we need to immediately work on something different / or we just arent ready to commit these changes yet. Well, we can stash the changes and get them later. so lets stash away file3
+lets pretend for a moment that we are working on file3 and something comes up and we need to immediately work on something different / or we just aren't ready to commit these changes yet. Well, we can stash the changes and get them later. so lets stash away file3
 
 ```sh
 git stash

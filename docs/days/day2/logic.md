@@ -68,6 +68,6 @@ let conditionIsFalse = false
 if (conditionIsFalse) { 
     console.log("This block of code runs"); 
 } else if (conditionIsFalse) { 
-    console.log("This still doesnt run") 
+    console.log("This still does not run") 
 }
 ```

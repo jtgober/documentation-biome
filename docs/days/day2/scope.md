@@ -48,7 +48,7 @@ its also good to know that  let  is block scoped. so, if the same variable is de
 Const
 
 
-Const is different as it cannot be update, or redeclared. 
+Const is different as it cannot be update, or re-declared. 
 
 So we cannot do this
 

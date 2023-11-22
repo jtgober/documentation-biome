@@ -10,7 +10,7 @@ Danger zone, do not proceed unless you gave it your all!
 //odd or even exercise
 /*******************************************************
  * Below, there are 2 variables. first, write a logical flow to determine if a variable is odd or even
- *  After, comment out the varibles to test your code
+ *  After, comment out the variables to test your code
  */
 // var number = 2341
 // var number = 634562
