@@ -13,7 +13,7 @@ console.log(3 % 3) // 0
 console.log(12 % 5) // 2
 
 // ------------------- Strings
-//we can also type out full sentances with string like
+//we can also type out full sentences with string like
 console.log("I see Coffee and donuts in my future") // prints
 
 //we can also combine strings like this
@@ -22,7 +22,7 @@ console.log("Hello" + "World!")
 //Single quotes are also acceptable
 console.log('Hey this works too!') 
 
-//However watch out for sentances like this
+//However watch out for sentences like this
 console.log('i don't like coffee') // will fail
 
 //we need to add an \ before the ' in don't to get this working properly 
@@ -43,14 +43,14 @@ console.log("Hello" + " " + "World!")
 // ------------------- Booleans and Comparisons
 //true or false
 //and with booleans its easy to show with comparisons so lets also talk about that.
-//the 2x = operater is a abstract comparison.
+//the 2x = operator is a abstract comparison.
 //so, 
 
-//it doesnt check for exact type matching
+//it doesn't check for exact type matching
 console.log(3 == 3) // true
 console.log("3" == 3) // also true
 
-//the 3x = operater is a STRICT type comparison.
+//the 3x = operator is a STRICT type comparison.
 console.log(3 === 3) // true 
 console.log("3" === 3) // false, as it is also checking for type matching
 
