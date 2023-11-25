@@ -107,7 +107,7 @@ one this however, that  have noticed. Is that the placeholder field for password
 type in pwd for the password and then repeat the assertion steps. code is updated to the below
 
 ::: danger WHOA There!
-Just re-iterating, you would not want to have password values present in any code. So do not use this on password fields.
+Just re-iterating, you would not want to have password values present in any code. So do not use this on password fields. We will discuss how to update this in a later section
 :::
 
 ```js
