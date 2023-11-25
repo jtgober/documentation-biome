@@ -79,7 +79,7 @@ export default {
           { text: "Installing Playwright", link: "/days/day4/playwright-installation" },
           { text: "Playwright Tour", link: "/days/day4/playwright-tour" },
           { text: "First Automation", link: "/days/day4/first-automation" },
-          { text: "Code Generation Assertions", link: "/additions/codegen-update" },
+          { text: "Code Generation Assertions", link: "/days/day4/codegen-update" },
           { text: "Locator Strategy", link: "/days/day4/selecting-locators" },
           { text: "Page Object Model", link: "/days/day4/page-object-model" },
           { text: "Text Input Challenge", link: "/days/day4/text-input-challenge" },
