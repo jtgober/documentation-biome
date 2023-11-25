@@ -154,6 +154,7 @@ export default {
           { text: "Playwright Mocking", link: "/additions/playwright-api-mocking" },
           { text: "Global Setup", link: "/additions/global-setup" },
           { text: "Visual Comparison Testing", link: "/additions/visual-comparison-testing" },
+          { text: "Code Generation Assertions", link: "/additions/codegen-update" },
         ],
       },
     ],
