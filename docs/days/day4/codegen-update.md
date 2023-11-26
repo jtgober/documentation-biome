@@ -1,10 +1,10 @@
-# Codegen Update in playwright version 1.4.0
+# Codegen Update in playwright version 1.40.0
 
 The playwright team have been cooking up an awesome update with the codegen feature. Now we can generate assertions for our tests, closing the loop on the test creation process. But first we need to update to the newest version
 
-## Updating to version 1.4.0
+## Updating to version 1.40.0
 
-There are a few different ways to go about updating. But I'll take you down the road that I think is easiest. First jump into the package.json and update the `@playwright/test` dependency to version 1.4.0. Also `PRO TIP TRICK` highlight the current version and press `ctrl + spacebar` to show the latest version available.
+There are a few different ways to go about updating. But I'll take you down the road that I think is easiest. First jump into the package.json and update the `@playwright/test` dependency to version 1.40.0. Also `PRO TIP TRICK` highlight the current version and press `ctrl + spacebar` to show the latest version available.
 
 ```json
 {
